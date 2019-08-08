@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Horoscopes 4 BUB</title>
+    <!-- Reset Stylesheet -->
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" /> -->
+
+    <!-- Bootstrap Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS Stylesheet to Personalize Style -->
+    <link rel="stylesheet" type="text/css" href="./CSS/styles.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Bonbon|Courgette|Petit+Formal+Script"
+      rel="stylesheet"
+    />
+
+
+    <!-- Javascript Link -->
+    <script src="./javascript/practice.js"></script>
+  </head>
+
+  <body class="background">
+    <header>
+      <div class="jumbotron jumbotron-fluid ">
+        <div class="container">
+          <h1 class="display-4 headfont d-flex justify-content-center">Bub's Horoscope Game</h1>
+          <p class="lead leadfont d-flex justify-content-center">Are you a true Astrologist?</p>
+          <img class="intro-img img-fluid d-flex justify-content-center" src="./images/pic1.jpg">
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <!-- Start Game -->
+      <br />
+      <button class="btn btn-lg btn btn-success" id="startBtn">Let's do this shit!</button>
+      <div id="message" class="answer-page-text d-flex justify-content-center"></div>
+      <div id="right" class="score-text d-flex justify-content-center"></div>
+      <div id="wrong" class="score-text d-flex justify-content-center"></div>
+
+
+
+      <!-- Question page -->
+      <!-- <div id="timeLeft" class="time-text"></div> -->
+      <br />
+      <!-- <div id="currentQuestion" class="question-number-text"></div> -->
+      <br />
+      <div class="question question-text"></div>
+      <br />
+    <div class="row d-flex justify-content-center">
+      <div class="answerList answer-text"></div>
+    </div>
+      
+      <div id="correctedAnswer" class="answer-page-text"></div>
+
+      <!-- Score Count -->
+      <div id="startOverBtn" class="btn btn-danger"></div>
+    </div>
+  </body>
+</html>

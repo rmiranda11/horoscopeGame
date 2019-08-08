@@ -1,0 +1,77 @@
+.answerTxt{
+    font-size: 1rem;
+    color:black;
+}
+
+.container{
+    border: inset royalblue 1rem;
+}
+
+div {
+    margin-bottom: 20px;
+  }
+.correct, .incorrect {
+    text-transform: capitalize;
+}
+.intro-img{
+    margin: 1rem auto;
+}
+.score-text{
+    color:black;
+    font-size: 1rem;
+}
+
+.thisChoice{
+    margin:1rem;
+}
+
+.text{
+    font-size:1rem;
+    font-weight: bold;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .thisChoice{
+        display: block;
+    }
+}
+
+.row{
+    margin-right:15px;
+}
+
+.right{
+    color: blue;
+    font-size:1.5rem;
+}
+
+.wrong{
+    color:red;
+    font-size:1.5rem;
+
+}
+
+.messager{
+    color: green;
+    font-size:1.5rem;
+    margin:1rem;
+    font-weight: bold;
+}
+
+.messagew{
+    color: red;
+    font-size:1.5rem;
+    margin:1rem;
+    font-weight: bold;
+
+}
+
+.question{
+    margin:-1rem 2rem 0rem 2rem;
+    font-size:1.5rem;
+    font-weight:bold;
+}
